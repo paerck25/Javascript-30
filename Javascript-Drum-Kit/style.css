@@ -1,0 +1,37 @@
+html{
+    background: url('./background.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.keys{
+    margin: auto;
+    width: 90%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    margin: auto;
+    padding: 25px;
+    border: 3px solid white;
+    transition: all 0.1s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+kbd{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sound{
+    font-size: 20px;
+    color: yellow;
+}
+
+.playing{
+    box-shadow: 0 0 10px skyblue;
+}
